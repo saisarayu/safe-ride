@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "SafeRide+",
+    "slug": "safe-ride",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.saferide.app"
+    },
+    "web": {
+      "bundler": "webpack"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font",
+      "expo-status-bar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "887ff9e0-842a-4faa-ba96-293e8d3dbd72"
+      }
+    },
+    "owner": "sarayusais-team"
+  }
+}
